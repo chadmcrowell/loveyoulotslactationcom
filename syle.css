@@ -1,0 +1,123 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f3fa;
+    color: #3b3348;
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: linear-gradient(90deg, #ece7f6 0%, #f6f3fb 100%);
+    text-align: center;
+    padding: 3em 2em 2em 2em;
+    box-shadow: 0 2px 8px rgba(90,77,133,0.07);
+  }
+  
+  header h1 {
+    font-size: 2.1em;
+    margin: 0;
+    color: #5a4d85;
+    text-shadow: 0 2px 10px #efe9fa;
+  }
+  
+  header h3 {
+    font-weight: 500;
+    color: #5875a7;
+    margin: 0.7em 0 0.4em 0;
+  }
+  
+  header .contact {
+    font-size: 1em;
+    margin-top: 0.8em;
+    color: #7a6eb9;
+  }
+  
+  .btn {
+    background: #5a4d85;
+    color: #fff;
+    padding: 0.7em 1.4em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.18em;
+    margin-top: 1.2em;
+    display: inline-block;
+    border: none;
+    box-shadow: 0 2px 5px rgba(90,77,133,0.05);
+    transition: background 0.2s;
+  }
+  
+  .btn:hover {
+    background: #423368;
+  }
+  
+  nav {
+    background: #e8e6f3;
+    padding: 1em 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #d0cbe4;
+  }
+  
+  nav a {
+    color: #5a4d85;
+    margin: 0 1.2em;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    transition: color 0.2s;
+  }
+  
+  nav a:hover {
+    color: #423368;
+    text-decoration: underline;
+  }
+  
+  section {
+    background: #fff;
+    margin: 2em auto;
+    border-radius: 10px;
+    max-width: 700px;
+    box-shadow: 0 4px 18px rgba(63,51,104,0.07);
+    padding: 2em 2em 1.5em 2em;
+  }
+  
+  h2 {
+    color: #7765b3;
+    margin-top: 0;
+    margin-bottom: 0.6em;
+  }
+  
+  .services ul {
+    list-style: disc;
+    margin: 1em 0 1em 1.8em;
+    color: #524276;
+  }
+  
+  .about span {
+    font-weight: bold;
+    color: #7a6eb9;
+  }
+  
+  footer {
+    background: #ece7f6;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 0.95em;
+    color: #737070;
+    border-top: 1px solid #d0cbe4;
+    margin-top: 3em;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 800px) {
+    section {
+      padding: 1.3em 0.8em;
+      max-width: 98vw;
+      margin: 2em 1vw;
+    }
+    header, nav {
+      padding: 1.2em;
+    }
+  }
+  
