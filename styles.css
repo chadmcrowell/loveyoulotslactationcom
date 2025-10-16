@@ -138,3 +138,77 @@ footer {
   border-top: 1px solid #d0cbe4;
   margin-top: 3em;
 }
+
+/* Responsive tweaks: Make the site mobile-friendly */
+@media (max-width: 850px) {
+  header, nav, section {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  header h1 {
+    font-size: 1.2em;
+  }
+  nav {
+    padding: 0.8em 1em;
+    font-size: 0.96em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8em;
+    border-bottom: none;
+  }
+  nav a {
+    margin: 0;
+    padding: 0.5em 0;
+    display: block;
+    font-size: 1em;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+    background: #ece7f6;
+  }
+  section {
+    max-width: 97vw;
+    margin: 1em auto;
+    padding: 1.2em 0.2em;
+    border-radius: 8px;  
+    box-shadow: 0 2px 8px rgba(63,51,104,0.09);
+  }
+  #about img, #prenatal-group img {
+    float: none;
+    display: block;
+    margin: 1em auto;
+    max-width: 90vw;
+  }
+  h2 {
+    font-size: 1.1em;
+    padding-top: 0.4em;
+  }
+  .btn {
+    font-size: 1em;
+    padding: 0.6em 1em;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 1em;
+  }
+  .services ul {
+    margin-left: 1em;
+    font-size: 1em;
+  }
+  footer {
+    font-size: 0.9em;
+    padding: 1em 0.2em;
+    margin-top: 2em;
+  }
+}
+
+/* Extra small screens: */
+@media (max-width: 500px) {
+  header h1, header h3, nav, section, h2 {
+    font-size: 1em;
+    padding: 0.5em !important;
+  }
+  #prenatal-group img {
+    max-width: 62vw;
+  }
+}
