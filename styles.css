@@ -243,8 +243,8 @@ footer {
 }
 
 .circle-label {
-  color: #fff;
-  text-shadow: 0 1px 5px #777;
+  color: #3b3348;            /* Much darker purple */
+  text-shadow: 0 2px 8px #ffffffcc, 0 0px 2px #e1b2c1;  /* Faint white + subtle pink shadows */
   font-weight: bold;
   font-size: 1.07em;
   letter-spacing: 0.03em;
