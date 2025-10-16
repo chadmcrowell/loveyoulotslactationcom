@@ -255,3 +255,36 @@ footer {
   }
 }
 
+section p, .services ul {
+  font-size: 1.18em;
+  color: #3b3348;
+  line-height: 1.82;
+  letter-spacing: 0.01em;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+section p {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: rgba(239, 200, 218, 0.13); /* gentle pink wash */
+  padding: 1.17em 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(90,77,133,0.04);
+}
+
+@media (max-width: 700px) {
+  section p {
+    font-size: 1.05em;
+    padding: 0.8em 0.7em;
+  }
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.8em;
+  letter-spacing: 0.03em;
+}
+
