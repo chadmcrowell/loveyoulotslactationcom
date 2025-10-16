@@ -212,3 +212,46 @@ footer {
     max-width: 62vw;
   }
 }
+
+.circle-img {
+  background: #EFC8DA;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(90,77,133,0.07);
+  position: relative;
+  margin-bottom: 1em;
+}
+.circle-img img {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.circle-label {
+  color: #fff;
+  text-shadow: 0 1px 5px #777;
+  font-weight: bold;
+  font-size: 1.07em;
+  margin-top: 0.2em;
+  letter-spacing: 0.03em;
+}
+@media (max-width: 750px) {
+  .circle-img {
+    width: 47vw;
+    height: 47vw;
+    min-width: 110px;
+    min-height: 110px;
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .circle-img img {
+    width: 68%;
+    height: 68%;
+  }
+}
+
