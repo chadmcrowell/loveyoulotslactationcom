@@ -131,12 +131,57 @@ h2 {
 
 footer {
   background: #ece7f6;
-  padding: 1em 0;
+  padding: 2em 1.5em 1.2em;
   text-align: center;
   font-size: 0.95em;
   color: #737070;
   border-top: 1px solid #d0cbe4;
   margin-top: 3em;
+}
+
+.footer-content {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.footer-description {
+  color: #524276;
+  font-size: 0.95em;
+  line-height: 1.7;
+  margin-bottom: 1.2em;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+.footer-social a {
+  color: #5a4d85;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer-social a:hover {
+  color: #423368;
+}
+
+.footer-social .fa-instagram {
+  color: #E1306C;
+}
+
+.footer-social .fa-whatsapp {
+  color: #25D366;
+}
+
+.footer-copy {
+  font-size: 0.88em;
+  color: #9e9a9a;
+  margin-top: 0.5em;
 }
 
 /* Responsive tweaks: Make the site mobile-friendly */
