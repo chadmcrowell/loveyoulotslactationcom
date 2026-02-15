@@ -184,6 +184,23 @@ footer {
   margin-top: 0.5em;
 }
 
+.badge-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  max-width: 740px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+.badge-row img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
 /* Responsive tweaks: Make the site mobile-friendly */
 @media (max-width: 850px) {
   header, nav, section {
